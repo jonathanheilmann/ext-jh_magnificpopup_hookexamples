@@ -1,0 +1,45 @@
+{
+    "modules": [
+
+    ],
+    "properties": {
+        "backendModules": [
+
+        ],
+        "description": "This extension provides some working examples for hooks in EXT:jh_magnificpopup. Please see documentation of EXT:jh_magnificpopup (Chapter Development) and have a look at the commented code of this extension.",
+        "emConf": {
+            "category": "doc",
+            "custom_category": "",
+            "dependsOn": "typo3 => 6.0.0-6.2.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "6.2",
+            "version": "0.0.0"
+        },
+        "extensionKey": "jh_magnificpopup_hookexamples",
+        "name": "Magnific Popup - Hook Examples",
+        "originalExtensionKey": "jh_magnificpopup_hookexamples",
+        "persons": [
+            {
+                "company": "",
+                "email": "mail@jonathan-heilmann.de",
+                "name": "Jonathan Heilmann",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+
+        ],
+        "vendorName": "Heilmann"
+    },
+    "wires": [
+
+    ],
+    "log": {
+        "last_modified": "2014-09-18 09:10",
+        "extension_builder_version": "6.2.0",
+        "be_user": "Jonathan Heilmann (1)"
+    }
+}

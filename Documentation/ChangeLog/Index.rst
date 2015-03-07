@@ -1,0 +1,31 @@
+﻿.. ==================================================
+.. FOR YOUR INFORMATION
+.. --------------------------------------------------
+.. -*- coding: utf-8 -*- with BOM.
+
+.. include:: ../Includes.txt
+
+
+.. _changelog:
+
+ChangeLog
+=========
+
+.. ### BEGIN~OF~TABLE ###
+
+.. t3-field-list-table::
+ :header-rows: 1
+
+ - :Version:
+         Version
+
+   :Changes:
+         Changes
+
+ - :Version:
+         0.3.0
+
+   :Changes:
+         \* Added Ajax Hook
+
+         \* Initial release
