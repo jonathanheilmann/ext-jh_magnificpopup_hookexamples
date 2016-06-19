@@ -12,7 +12,6 @@
 
 $EM_CONF[$_EXTKEY] = array (
   'title' => 'Magnific Popup - Hook Examples',
-  'description' => 'This extension provides some working examples for hooks in EXT:jh_magnificpopup. Please see documentatio,n documentation of EXT:jh_magnificpopup (Chapter Development) and have a look at the commented code of this extension.',
   'category' => 'doc',
   'state' => 'beta',
   'uploadfolder' => true,
@@ -35,6 +34,7 @@ $EM_CONF[$_EXTKEY] = array (
     array (
     ),
   ),
+    'description' => 'This extension provides some working examples for hooks in EXT:jh_magnificpopup. Please see documentation of EXT:jh_magnificpopup (Chapter Development) and have a look at the commented code of this extension.',
     'version' => '0.5.0-dev',
 );
 
