@@ -23,6 +23,14 @@ ChangeLog
          Changes
 
  - :Version:
+         0.5.0
+
+   :Changes:
+         \* Added TYPO3 CMS 7 LTS compatibility
+
+         \* Code clean up
+
+ - :Version:
          0.3.0
 
    :Changes:
