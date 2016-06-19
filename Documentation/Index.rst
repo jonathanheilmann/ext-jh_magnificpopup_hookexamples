@@ -29,7 +29,7 @@ Magnific Popup - Hook Examples
 		jh_magnificpopup, Magnific Popup, lightbox, hook, example
 
 	:Copyright:
-		2014
+		2014-2016
 
 	:Author:
 		Jonathan Heilmann
