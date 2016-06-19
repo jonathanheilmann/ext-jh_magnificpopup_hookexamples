@@ -5,7 +5,7 @@ namespace Heilmann\JhMagnificpopupHookexamples\Hooks;
  *
  *  Copyright notice
  *
- *  (c) 2014 Jonathan Heilmann <mail@jonathan-heilmann.de>
+ *  (c) 2014-2016 Jonathan Heilmann <mail@jonathan-heilmann.de>
  *
  *  All rights reserved
  *
@@ -29,7 +29,8 @@ namespace Heilmann\JhMagnificpopupHookexamples\Hooks;
 /**
  * EidTypeHook
  */
-class EidTypeHook {
+class EidTypeHook
+{
 
 	/**
 	 *
@@ -38,10 +39,12 @@ class EidTypeHook {
 	 * @param mixed $obj reference of $this
 	 * @return array
 	 */
-	public function ajax(&$params, $obj) {
+	public function ajax(&$params, $obj)
+	{
 		// set machtedType to FALSE
 		$conf = array('matchedType' => FALSE);
-		if ($params['type'] == 'hookexample') {
+		if ($params['type'] == 'hookexample')
+        {
 			// the type matches,
 			// set machtedType to TRUE
 			// set a cObject name, add the cObject configuration and add a wrap for the lightbox
@@ -54,10 +57,13 @@ class EidTypeHook {
 				'wrap'        => '<div class="white-popup-block">|</div>',
 			);
 			// set conf-value, depending on type of $params['hookConf']
-			if (!empty($params['hookConf'])) {
-				if (is_array($params['hookConf'])) {
+			if (!empty($params['hookConf']))
+            {
+				if (is_array($params['hookConf']))
+                {
 					$conf['conf']['value'] = 'This is an easy example. Passed hookConf:<br/>' . \TYPO3\CMS\Core\Utility\DebugUtility::viewArray($params['hookConf']);
-				} else {
+				} else
+                {
 					$conf['conf']['value'] = 'This is an easy example. Passed hookConf: ' . $params['hookConf'];
 				}
 			} else {
