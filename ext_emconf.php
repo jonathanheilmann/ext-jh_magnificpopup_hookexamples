@@ -24,7 +24,6 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'jh_magnificpopup' => '0.3.0',
     ),
     'conflicts' => 
     array (
@@ -36,5 +35,6 @@ $EM_CONF[$_EXTKEY] = array (
     'description' => 'This extension provides some working examples for hooks in EXT:jh_magnificpopup. Please see documentation of EXT:jh_magnificpopup (Chapter Development) and have a look at the commented code of this extension.',
     'version' => '0.5.0-dev',
                     'typo3' => '6.2.0-7.6.99',
+                    'jh_magnificpopup' => '0.5.0',
 );
 
